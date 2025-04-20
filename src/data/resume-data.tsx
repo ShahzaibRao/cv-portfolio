@@ -1,59 +1,59 @@
 import { GitHubIcon, LinkedInIcon, TelegramIcon } from '@/components/icons'
 
 export const RESUME_DATA = {
-	name: 'Harshhaa Vardhan Reddy',
+	name: 'Rao Shahzaib ',
 	initials: 'HR',
 	location: 'Hyderabad, India',
-	locationLink: 'https://www.google.com/maps/place/Hyderabad',
+	locationLink: 'https://www.google.com/maps/place/rahimyarkhan',
 	about: 
 	    'DevOps & Cloud Engineer passionate about automation, scalability, and building reliable infrastructure that empowers development teams.',
-    summary: `I specialize in DevOps, Cloud Computing, and Infrastructure Automation, with hands-on expertise in tools like Kubernetes, Terraform, Docker, and CI/CD pipelines. I design and implement cloud-native architectures that are scalable, secure, and resilient with a strong focus on efficiency and reliability.
-    As an open-source contributor, I actively collaborate with the global tech community, sharing solutions and tackling real-world infrastructure challenges together.
+    summary: `I specialize in DevOps, Cloud Computing, and Infrastructure Automation, with hands-on expertise in tools like Kubernetes, Terraform, Docker, Ansible and CI/CD pipelines. I design and implement cloud-native architectures that are scalable, secure, and resilient with a strong focus on efficiency and reliability.
+    , I actively collaborate with the global tech community, sharing solutions and tackling real-world infrastructure challenges together.
     I'm driven by a mission to bridge development and operations through automation, helping teams ship faster, safer, and smarter in the cloud.`,
 	avatar: '/assets/avatar.jpg',
 	personalWebsiteUrl: {
 		name: 'Portfolio',
-		url: 'https://notharshhaa.site'
+		url: 'https://raoshahzaib.site'
 	},
 	contact: {
 		link: {
 			name: 'Other Links',
-			url: 'https://link.notharshhaa.site'
+			url: 'https://link.raoshahzaib.site'
 		},
 		email: {
 			name: 'Email',
-			at: 'harshhaa03@gmail.com'
+			at: 'raoshahzaibtariq@gmail.com'
 		},
 		tel: {
 			name: 'Phone',
-			phoneNumber: '+917995905634'
+			phoneNumber: '+923104010601'
 		},
 		social: [
 			{
 				name: 'GitHub',
-				url: 'https://github.com/NotHarshhaa',
+				url: 'https://github.com/ShahzaibRao',
 				icon: GitHubIcon
 			},
 			{
 				name: 'LinkedIn',
-				url: 'https://www.linkedin.com/in/harshhaa-vardhan-reddy',
+				url: 'https://www.linkedin.com/in/rao-shahzaib/',
 				icon: LinkedInIcon
 			},
 			{
 				name: 'Telegram',
-				url: 'https://t.me/NotHarshhaa',
+				url: 'https://t.me/',
 				icon: TelegramIcon
 			}
 		]
 	},
 	education: [
 		{
-		  school: 'Jawaharlal Nehru Technological University Hyderabad (JNTUH)',
-		  degree: "Bachelor of Technology, Mechanical Engineering",
-		  start: 'Jul, 2015',
-		  end: 'Jun, 2020',
+		  school: 'National College of Business Administration & Economics (NCBAE)',
+		  degree: "Master in Computer Science",
+		  start: 'Jul, 2017',
+		  end: 'Jun, 2019',
 		  description: [
-			'Built a strong foundation in core engineering principles including thermodynamics, fluid mechanics, and material science.',
+			'Built a strong foundation in core engineering principles.',
 			'Explored interdisciplinary interests that led to a growing passion for automation and cloud infrastructure.',
 			'Worked on academic and practical projects involving design, analysis, and simulation of mechanical systems.',
 			'Participated in workshops and tech fests, developing early skills in problem-solving and teamwork.',
@@ -63,8 +63,8 @@ export const RESUME_DATA = {
 	],
 	work: [
 		{
-		  company: 'Tata Consultancy Services',
-		  link: 'https://www.tcs.com',
+		  company: 'Syantax House',
+		  link: 'https://www.syantaxhouse.com',
 		  badges: ['Hybrid'],
 		  jobs: [
 			{
@@ -72,18 +72,18 @@ export const RESUME_DATA = {
 			  start: 'Mar, 2023',
 			  end: 'Present',
 			  description: [
-				'Implemented CI/CD pipelines using Jenkins, GitHub Actions, and Azure DevOps to accelerate software delivery.',
+				'Implemented CI/CD pipelines using Jenkins, GitHub Actions, and  DevOps to accelerate software delivery.',
 				'Managed Kubernetes clusters and containerized applications using Docker and Helm charts.',
 				'Automated infrastructure provisioning using Terraform and Ansible across hybrid cloud environments.',
-				'Monitored and optimized system performance with Prometheus, Grafana, and ELK stack.',
+				'Monitored and optimized system performance with Prometheus, Grafana.',
 				'Collaborated with cross-functional teams to enhance deployment workflows and incident response.'
 			  ]
 			}
 		  ]
 		},
 		{
-		  company: 'IBM',
-		  link: 'https://www.ibm.com',
+		  company: 'ProLouge',
+		  link: 'https://www.prolouge.com',
 		  badges: ['Remote'],
 		  jobs: [
 			{
@@ -100,36 +100,11 @@ export const RESUME_DATA = {
 			}
 		  ]
 		},
-		{
-		  company: 'C360 Software Inc',
-		  link: 'https://www.c360soft.ai',
-		  badges: ['In-Office'],
-		  jobs: [
-			{
-			  title: 'Cloud DevOps Engineer',
-			  start: 'Nov, 2020',
-			  end: 'Feb, 2022',
-			  description: [
-				'Designed and deployed cloud-native solutions using AWS services including EC2, S3, and ECS.',
-				'Built and maintained automated pipelines for application deployment and infrastructure updates.',
-				'Managed configuration and secrets using tools like HashiCorp Vault and AWS Parameter Store.',
-				'Improved system reliability by implementing blue-green and canary deployment strategies.',
-				'Collaborated with product teams to support agile delivery and continuous improvement.'
-			  ]
-			}
-		  ]
-		}
+		
 	],	  
 	skills: [
 		'AWS',
-		'EC2',
-		'S3',
-		'EKS',
-		'IAM',
-		'Azure',
-		'AKS',
 		'DevOps',
-		'ARM',
 		'Kubernetes',
 		'Docker',
 		'Terraform',
@@ -140,75 +115,59 @@ export const RESUME_DATA = {
 		'CI/CD',
 		'Jenkins',
 		'GitHub Actions',
-		'Azure DevOps',
 		'Prometheus',
 		'Grafana',
-		'ELK Stack',
 		'Git',
-		'Shell Scripting',
-		'Bash',
 		'GitLab',
-		'Python',
-		'YAML',
 		'Monitoring',
-		'Logging',
-		'CloudFormation',
 		'Helm',
 		'NGINX',
 		'Networking',
 		'GitHub',
 		'GitOps',
-		'Jira',
-		'Confluence',
-		'Agile Methodologies',
 		'Collaboration',
 		'Problem Solving',
 		'Communication',
 		'Teamwork',
 		'Adaptability',
-		'Open Source',
 		'Community Engagement',
 		'Continuous Learning',
 		'Infrastructure as Code',
 		'Configuration Management',
-		'Secrets Management',
-		'Incident Management',
-		'Disaster Recovery',
 		'Load Balancing',
 		'High Availability',
 		'Performance Tuning',
 		'Security Best Practices',
 		'HashiCorp Vault',
-		'Agile',
 		'DevOps Practices',
 		'VS Code'
 	],	  
 	projects: [
 		{
-		  title: 'AWS Terraform Workshop',
-		  techStack: ['Terraform', 'AWS'],
-		  description: 'Beginner-friendly guide to setting up AWS infrastructure using Terraform.',
+		  title: 'Kubernetes Workshop',
+		  techStack: ['Kubernetes'],
+		  description: 'Beginner-friendly guide to setting up Kubernetes.',
 		  link: {
 			label: 'github.com/NotHarshhaa/AWS-Terraform-Workshop',
-			href: 'https://github.com/NotHarshhaa/AWS-Terraform-Workshop'
+			href: 'https://github.com/ShahzaibRao/kubernetes'
 		  }
 		},
 		{
-		  title: 'ECR to ECS Deployment with GitHub Actions',
-		  techStack: ['Terraform', 'ECS', 'GitHub Actions', 'Docker'],
-		  description: 'Automated deployment of a Python application to AWS ECS using GitHub Actions, Docker, and Terraform.',
+		  title: 'Free file hosting service',
+		  techStack: ['Drive', 'cloudflare', 'R2'],
+		  description: 'Cloudflare R2 storage manager with Pages and Workers. Free 10 GB storage. Free serverless backend with a limit of 100,000 invocation requests per day.',
 		  link: {
-			label: 'github.com/NotHarshhaa/tf-ecr-ecs-gh-deploy',
-			href: 'https://github.com/NotHarshhaa/tf-ecr-ecs-gh-deploy'
+			label: 'https://github.com/ShahzaibRao/FlareDrive',
+			href: 'https://drive.raoshahzaib.site/'
 		  }
 		},
 		{
-		  title: 'Amazon EKS Cluster with Terraform',
-		  techStack: ['Terraform', 'EKS'],
-		  description: 'Terraform-based provisioning of an Amazon EKS Cluster for Kubernetes deployments.',
+		  title: 'CloudFlare free temp domain email',
+		  techStack: ['Email', 'Cloudflare'],
+		  description: 'Build CloudFlare to send and receive free temporary domain name mailboxes.',
 		  link: {
-			label: 'github.com/NotHarshhaa/eks-cluster-terraform',
-			href: 'https://github.com/NotHarshhaa/eks-cluster-terraform'
+			label: 'webmail.raoshahzaib.site',
+			href: 'https://webmail.raoshahzaib.site/en'
 		  }
 		},
 		{
@@ -230,12 +189,12 @@ export const RESUME_DATA = {
 		  }
 		},
 		{
-		  title: 'Certified Kubernetes Administrator (CKA) Prep',
-		  techStack: ['Kubernetes'],
-		  description: 'Master Kubernetes from scratch and prepare for the CKA certification.',
+		  title: 'My home lab for testing production tools',
+		  techStack: ['Proxmox', 'K3s', 'Ansible', 'Terraform'],
+		  description: 'my home lab setup using Proxmox, Terraform, Ansible, and Kubernetes (K3s). The goal is to automate infrastructure deployment and configuration while documenting everything for learning and sharing.',
 		  link: {
-			label: 'github.com/NotHarshhaa/Certified_Kubernetes_Administrator',
-			href: 'https://github.com/NotHarshhaa/Certified_Kubernetes_Administrator'
+			label: 'github.com/ShahzaibRao/home-labs',
+			href: 'https://github.com/ShahzaibRao/home-labs'
 		  }
 		},
 		{
@@ -247,176 +206,6 @@ export const RESUME_DATA = {
 			href: 'https://github.com/NotHarshhaa/kubernetes-dashboard'
 		  }
 		},
-		{
-		  title: 'Real-World DevOps Projects',
-		  techStack: ['DevOps', 'Projects'],
-		  description: 'Real-world DevOps projects from beginner to advanced levels.',
-		  link: {
-			label: 'github.com/NotHarshhaa/DevOps-Projects',
-			href: 'https://github.com/NotHarshhaa/DevOps-Projects'
-		  }
-		},
-		{
-		  title: 'Uber Clone with DevSecOps',
-		  techStack: ['Full-Stack', 'DevSecOps'],
-		  description: 'Full-stack Uber-like transportation application with DevSecOps integration.',
-		  link: {
-			label: 'github.com/NotHarshhaa/uber-clone',
-			href: 'https://github.com/NotHarshhaa/uber-clone'
-		  }
-		},
-		{
-		  title: 'Kubernetes Learning Projects',
-		  techStack: ['Kubernetes'],
-		  description: 'Practical Kubernetes projects to master deployment, management, and scaling of containerized applications.',
-		  link: {
-			label: 'github.com/NotHarshhaa/kubernetes-projects-learning',
-			href: 'https://github.com/NotHarshhaa/kubernetes-projects-learning'
-		  }
-		},
-		{
-		  title: 'Provisioning EKS on AWS with Terraform',
-		  techStack: ['AWS', 'EKS', 'Terraform'],
-		  description: 'Provision Amazon EKS Cluster on AWS using Terraform.',
-		  link: {
-			label: 'github.com/NotHarshhaa/AWS-EKS_Terraform',
-			href: 'https://github.com/NotHarshhaa/AWS-EKS_Terraform'
-		  }
-		},
-		{
-		  title: 'Deploy Super Mario on EKS',
-		  techStack: ['Kubernetes', 'Terraform'],
-		  description: 'Deploy Super Mario game on Amazon EKS using Terraform.',
-		  link: {
-			label: 'github.com/NotHarshhaa/Deployment-of-super-Mario-on-Kubernetes-using-terraform',
-			href: 'https://github.com/NotHarshhaa/Deployment-of-super-Mario-on-Kubernetes-using-terraform'
-		  }
-		},
-		{
-		  title: 'Cloud-Native Monitoring App',
-		  techStack: ['Python', 'Docker', 'EKS'],
-		  description: 'Monitoring app built with Python, containerized with Docker, and deployed to EKS.',
-		  link: {
-			label: 'github.com/NotHarshhaa/cloud-native-monitoring-app',
-			href: 'https://github.com/NotHarshhaa/cloud-native-monitoring-app'
-		  }
-		},
-		{
-		  title: 'Zomato Clone with DevSecOps',
-		  techStack: ['Full-Stack', 'DevSecOps'],
-		  description: 'Full-stack food delivery application inspired by Zomato with DevSecOps integration.',
-		  link: {
-			label: 'github.com/NotHarshhaa/Zomato-Clone',
-			href: 'https://github.com/NotHarshhaa/Zomato-Clone'
-		  }
-		},
-		{
-		  title: 'Learning Prometheus Monitoring',
-		  techStack: ['Prometheus', 'Monitoring'],
-		  description: 'Repository for learning and implementing Prometheus monitoring in Kubernetes environments.',
-		  link: {
-			label: 'github.com/NotHarshhaa/Learning-Prometheus',
-			href: 'https://github.com/NotHarshhaa/Learning-Prometheus'
-		  }
-		},
-		{
-		  title: 'Kubernetes Mastery Guide',
-		  techStack: ['Kubernetes'],
-		  description: 'Comprehensive Kubernetes learning and deployment repository from basic to advanced.',
-		  link: {
-			label: 'github.com/NotHarshhaa/Kubernetes',
-			href: 'https://github.com/NotHarshhaa/Kubernetes'
-		  }
-		},
-		{
-		  title: 'DevOps Setup & Installation Guides',
-		  techStack: ['DevOps'],
-		  description: 'Guides for installing and setting up essential DevOps and DevSecOps tools.',
-		  link: {
-			label: 'github.com/NotHarshhaa/DevOps_Setup-Installations',
-			href: 'https://github.com/NotHarshhaa/DevOps_Setup-Installations'
-		  }
-		},
-		{
-		  title: 'DevOps Tool Installer Scripts',
-		  techStack: ['Automation'],
-		  description: 'Automated installation/uninstallation scripts for essential DevOps tools on Linux and Windows.',
-		  link: {
-			label: 'github.com/NotHarshhaa/DevOps-Tool-Installer',
-			href: 'https://github.com/NotHarshhaa/DevOps-Tool-Installer'
-		  }
-		},
-		{
-		  title: 'Kubernetes Learning Path',
-		  techStack: ['Kubernetes'],
-		  description: 'Step-by-step Kubernetes learning path from beginner to advanced.',
-		  link: {
-			label: 'github.com/NotHarshhaa/kubernetes-learning-path',
-			href: 'https://github.com/NotHarshhaa/kubernetes-learning-path'
-		  }
-		},
-		{
-		  title: 'AWS Infra with Jenkins and Terraform',
-		  techStack: ['Jenkins', 'Terraform', 'AWS'],
-		  description: 'Terraform scripts for AWS infrastructure provisioning with Jenkins integration.',
-		  link: {
-			label: 'github.com/NotHarshhaa/Jenkins-Terraform-AWS-Infra',
-			href: 'https://github.com/NotHarshhaa/Jenkins-Terraform-AWS-Infra'
-		  }
-		},
-		{
-		  title: 'Azure Cloud Resources Hub',
-		  techStack: ['Azure'],
-		  description: 'Curated list of Azure resources, libraries, guides, and blogs.',
-		  link: {
-			label: 'github.com/NotHarshhaa/azure-all_in_one',
-			href: 'https://github.com/NotHarshhaa/azure-all_in_one'
-		  }
-		},
-		{
-		  title: 'AWS Billing Alert with Terraform',
-		  techStack: ['Terraform', 'AWS'],
-		  description: 'Terraform module for setting up AWS billing alerts.',
-		  link: {
-			label: 'github.com/NotHarshhaa/aws-billing-alert-terraform',
-			href: 'https://github.com/NotHarshhaa/aws-billing-alert-terraform'
-		  }
-		},
-		{
-		  title: 'Real-Time AWS DevOps Deployment',
-		  techStack: ['AWS', 'DevOps'],
-		  description: 'End-to-end AWS DevOps deployment pipeline from Dev to Production.',
-		  link: {
-			label: 'github.com/NotHarshhaa/AWS-DevOps_Real-Time_Deployment',
-			href: 'https://github.com/NotHarshhaa/AWS-DevOps_Real-Time_Deployment'
-		  }
-		},
-		{
-		  title: 'DevOps Cheatsheet',
-		  techStack: ['DevOps'],
-		  description: 'Quick-reference DevOps cheatsheets covering CI/CD, cloud, security, monitoring, and automation.',
-		  link: {
-			label: 'github.com/NotHarshhaa/devops-cheatsheet',
-			href: 'https://github.com/NotHarshhaa/devops-cheatsheet'
-		  }
-		},
-		{
-		  title: 'DevOps Interview Questions',
-		  techStack: ['DevOps', 'Interview'],
-		  description: '550+ DevOps interview questions with detailed answers covering CI/CD, Kubernetes, Terraform, and cloud.',
-		  link: {
-			label: 'github.com/NotHarshhaa/DevOps-Interview-Questions',
-			href: 'https://github.com/NotHarshhaa/DevOps-Interview-Questions'
-		  }
-		},
-		{
-		  title: 'Into the DevOps',
-		  techStack: ['DevOps'],
-		  description: 'Comprehensive DevOps interview guide covering Linux, AWS, Kubernetes, Terraform, Docker, and more.',
-		  link: {
-			label: 'github.com/NotHarshhaa/into-the-devops',
-			href: 'https://github.com/NotHarshhaa/into-the-devops'
-		  }
-		}
+		
 	]			
 }
