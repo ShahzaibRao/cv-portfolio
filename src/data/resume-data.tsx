@@ -110,33 +110,15 @@ export const RESUME_DATA = {
 		'Terraform',
 		'Ansible',
 		'Linux',
-		'Ubuntu',
-		'CentOS',
 		'CI/CD',
 		'Jenkins',
 		'GitHub Actions',
 		'Prometheus',
 		'Grafana',
-		'Git',
-		'GitLab',
 		'Monitoring',
 		'Helm',
-		'NGINX',
-		'Networking',
-		'GitHub',
-		'GitOps',
-		'Collaboration',
-		'Problem Solving',
-		'Communication',
-		'Teamwork',
-		'Adaptability',
-		'Community Engagement',
-		'Continuous Learning',
-		'Infrastructure as Code',
-		'Configuration Management',
-		'Load Balancing',
-		'High Availability',
-		'Performance Tuning',
+		'ArgoCd',
+		'fluxCd'
 		'Security Best Practices',
 		'HashiCorp Vault',
 		'DevOps Practices',
@@ -164,7 +146,7 @@ export const RESUME_DATA = {
 		{
 		  title: 'CloudFlare free temp domain email',
 		  techStack: ['Email', 'Cloudflare'],
-		  description: 'Build CloudFlare to send and receive free temporary domain name mailboxes.',
+		  description: 'Deploy send and receive free temporary domain name mailboxes.',
 		  link: {
 			label: 'webmail.raoshahzaib.site',
 			href: 'https://webmail.raoshahzaib.site/en'
@@ -173,7 +155,7 @@ export const RESUME_DATA = {
 		{
 		  title: 'My home lab for testing production tools',
 		  techStack: ['Proxmox', 'K3s', 'Ansible', 'Terraform'],
-		  description: 'my home lab setup using Proxmox, Terraform, Ansible, and Kubernetes (K3s). The goal is to automate infrastructure deployment and configuration while documenting everything for learning and sharing.',
+		  description: 'my home lab setup using Proxmox, Terraform, Ansible, and Kubernetes (K3s). The goal is to automate infrastructure deployment and configuration.',
 		  link: {
 			label: 'github.com/ShahzaibRao/home-labs',
 			href: 'https://github.com/ShahzaibRao/home-labs'
