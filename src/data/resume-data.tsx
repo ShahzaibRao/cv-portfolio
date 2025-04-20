@@ -3,7 +3,7 @@ import { GitHubIcon, LinkedInIcon, TelegramIcon } from '@/components/icons'
 export const RESUME_DATA = {
 	name: 'Rao Shahzaib ',
 	initials: 'HR',
-	location: 'Hyderabad, India',
+	location: 'Rahim Yar Khan, Pakistan',
 	locationLink: 'https://www.google.com/maps/place/rahimyarkhan',
 	about: 
 	    'DevOps & Cloud Engineer passionate about automation, scalability, and building reliable infrastructure that empowers development teams.',
