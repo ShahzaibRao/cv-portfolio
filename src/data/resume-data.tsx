@@ -171,39 +171,12 @@ export const RESUME_DATA = {
 		  }
 		},
 		{
-		  title: 'CI/CD on EKS using GitHub Actions',
-		  techStack: ['CI/CD', 'EKS', 'GitHub Actions', 'Terraform'],
-		  description: 'CI/CD pipeline for deploying a Node.js app on Amazon EKS using GitHub Actions, Terraform, and Kubernetes.',
-		  link: {
-			label: 'github.com/NotHarshhaa/CI-CD_EKS-GitHub_Actions',
-			href: 'https://github.com/NotHarshhaa/CI-CD_EKS-GitHub_Actions'
-		  }
-		},
-		{
-		  title: 'DevOps Tools Collection',
-		  techStack: ['DevOps'],
-		  description: 'Collection of essential DevOps tools for development, deployment, monitoring, security, and automation.',
-		  link: {
-			label: 'github.com/NotHarshhaa/devops-tools',
-			href: 'https://github.com/NotHarshhaa/devops-tools'
-		  }
-		},
-		{
 		  title: 'My home lab for testing production tools',
 		  techStack: ['Proxmox', 'K3s', 'Ansible', 'Terraform'],
 		  description: 'my home lab setup using Proxmox, Terraform, Ansible, and Kubernetes (K3s). The goal is to automate infrastructure deployment and configuration while documenting everything for learning and sharing.',
 		  link: {
 			label: 'github.com/ShahzaibRao/home-labs',
 			href: 'https://github.com/ShahzaibRao/home-labs'
-		  }
-		},
-		{
-		  title: 'Secure Kubernetes Dashboard',
-		  techStack: ['Kubernetes', 'Security'],
-		  description: 'Kubernetes dashboard with integrated health checks and Trivy scanning.',
-		  link: {
-			label: 'github.com/NotHarshhaa/kubernetes-dashboard',
-			href: 'https://github.com/NotHarshhaa/kubernetes-dashboard'
 		  }
 		},
 		
